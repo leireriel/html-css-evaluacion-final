@@ -1,6 +1,12 @@
 .section_tips_wrapper {
-
+    padding-top: 30px;
 }
-.tips_title, .tips_title2 {
+.tips_title, .article_title {
     text-transform: capitalize;
+    margin: 0;
 }
+.tips_button {
+    width: 76px;
+    height: 45px;
+}
+
