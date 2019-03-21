@@ -1,3 +1,14 @@
+.nav_button {
+    background-color: $colorBlue;
+    width: 44px;
+    height: 44px;
+    border: none;
+    position: fixed;
+}
+.menu {
+    width: 16px;
+    height: 14px;
+}
 .hero_wrapper {
     background: url('../../assets/images/cover.jpg') center;
     background-size: cover;
