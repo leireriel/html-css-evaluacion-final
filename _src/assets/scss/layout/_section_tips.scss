@@ -1,15 +1,29 @@
 .section_tips_wrapper {
     padding-top: 30px;
-    padding: 30px 15px 0;
+    padding: 30px 15px 45px;
+    @media all and (min-width: 768px) {
+        padding: 30px 39px 60px;
+    }
+
 }
 .tips_title, .article_title {
     text-transform: capitalize;
     margin: 0;
 }
+.article_title {
+    @media all and (min-width: 768px) {
+        margin-bottom: 30px;
+    }
+}
+.article_p {
+    @media all and (min-width: 768px) {
+        margin: 0;
+    }
+}
 .tips_button {
     width: 76px;
     height: 45px;
-    margin: 30px 0 45px;
+    margin-top: 30px;
 }
 .button_link_tips {
     text-decoration: none;

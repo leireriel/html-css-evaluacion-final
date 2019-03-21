@@ -4,12 +4,19 @@
     line-height: $lineHeight_hero;
     color: $colorWhite;
     font-weight: $fontWeight_big;
+    @media all and (min-width: 768px) {
+        font-size: $fontSize_heroBig;
+        line-height: $lineHeight_heroBig;
+    }
 }
 .text_hero_p {
     font-family: $fontFamily_default;
     font-size: $fontSize_medium;
     color: $colorWhite;
     font-weight: $fontWeight_regular;
+    @media all and (min-width: 768px) {
+        font-size: $fontSize_titleBig;
+    }
 }
 .text_tips_title {
     font-family: $fontFamily_default;
@@ -24,13 +31,20 @@
     line-height: $lineHeight_default;
     color: $colorBlack;
     font-weight: $fontWeight_big;
+    @media all and (min-width: 768px) {
+        font-size: $fontSize_titleXL;
+        line-height: $lineHeight_button;
+    }
 }
 .text_article_p {
     font-family: $fontFamily_default;
     font-size: $fontSize_title;
     line-height: $lineHeight_default;
     color: $colorGrey;
-    font-weight: $fontWeight_regular;    
+    font-weight: $fontWeight_regular;
+    @media all and (min-width: 768px) {
+        font-size: $fontSize_titleMed;
+    }   
 }
 .text_button {
     font-family: $fontFamily_default;

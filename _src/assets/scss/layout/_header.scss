@@ -4,6 +4,7 @@
     height: 44px;
     border: none;
     position: fixed;
+    cursor: pointer;
 }
 .menu {
     width: 16px;
@@ -21,10 +22,23 @@
 }
 .hero_title {
     text-transform: uppercase;
-    margin-bottom: 0;
+    margin: 0;
+    max-width: 290px;
+    @media all and (min-width: 768px) {
+        max-width: 690px;
+    }
 }
 .hero_p {
     margin-top: 10px;
+    @media all and (min-width: 768px) {
+        margin: 10px 0 20px;
+    }
+}
+.scroll-arrow-container {
+    margin: 53px 0;
+    @media all and (min-width: 768px) {
+        margin: 0 0 35px 0;
+    }
 }
 .scroll-arrow {
     widows: 20px;
