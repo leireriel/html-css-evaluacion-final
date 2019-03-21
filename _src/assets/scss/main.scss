@@ -1,7 +1,13 @@
 //Core
 @import 'core/variables';
 
-// Layout
+//Components
+@import 'components/typography';
+@import 'components/structure';
+
+//Layout
 @import 'layout/header';
-@import 'layout/main';
+@import 'layout/hero';
+@import 'layout/section_tips';
+@import 'layout/section_reasons';
 @import 'layout/footer';

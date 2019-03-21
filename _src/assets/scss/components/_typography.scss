@@ -1,0 +1,19 @@
+.text_hero_title {
+    font-family: $fontFamily_title;
+    font-size: $fontSize_hero;
+    line-height: $lineHeight_hero;
+    color: $colorWhite;
+}
+
+.text_hero_p {
+    font-family: $fontFamily_default;
+    font-size: $fontSize_medium;
+    color: $colorWhite;
+}
+
+.text_button {
+    font-family: $fontFamily_button;
+    font-size: $fontSize_button;
+    line-height: $lineHeight_button;
+    color: $colorWhite;
+}
