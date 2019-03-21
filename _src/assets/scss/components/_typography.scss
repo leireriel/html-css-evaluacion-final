@@ -38,3 +38,17 @@
     line-height: $lineHeight_button;
     font-weight: $fontWeight_medium;
 }
+.text_reasons_tit {
+    font-family: $fontFamily_title;
+    font-size: $fontSize_title;
+    line-height: $lineHeight_default;
+    color: $colorBlack;
+    font-weight: $fontWeight_big;  
+}
+.text_reasons_p {
+    font-family: $fontFamily_default;
+    font-size: $fontSize_title;
+    line-height: $lineHeight_default;
+    color: $colorBlack;
+    font-weight: $fontWeight_regular;
+}
