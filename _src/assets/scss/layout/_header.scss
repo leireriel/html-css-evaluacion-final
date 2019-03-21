@@ -1,0 +1,32 @@
+.hero_wrapper {
+    background: url('../../assets/images/cover.jpg') center;
+    background-size: cover;
+    min-height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+.hero_title {
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+.hero_p {
+    margin-top: 10px;
+}
+.scroll-arrow-container {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: white;
+    margin: 53px 0;
+    border: none;
+}
+.scroll-arrow {
+    widows: 20px;
+    height: 11.7px;
+}
