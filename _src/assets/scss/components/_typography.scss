@@ -3,12 +3,14 @@
     font-size: $fontSize_hero;
     line-height: $lineHeight_hero;
     color: $colorWhite;
+    font-weight: $fontWeight_big;
 }
 
 .text_hero_p {
     font-family: $fontFamily_default;
     font-size: $fontSize_medium;
     color: $colorWhite;
+    font-weight: $fontWeight_regular;
 }
 
 .text_button {

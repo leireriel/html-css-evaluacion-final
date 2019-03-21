@@ -8,9 +8,13 @@ $colorBlack: #000;
 $colorGrey: #4a4a4a;
 
 //Typography
-$fontFamily_title: 'Roboto Slab:700', serif;
-$fontFamily_default: 'Roboto:400', sans-serif;
-$fontFamily_button: 'Roboto:500', sans-serif;
+$fontFamily_title: 'Roboto Slab', serif;
+$fontFamily_default: 'Roboto', sans-serif;
+$fontFamily_button: 'Roboto', sans-serif;
+
+$fontWeight_regular: 400;
+$fontWeight_medium: 500;
+$fontWeight_big: 700;
 
 $fontSize_small: 14px;
 $fontSize_medium: 16px;
