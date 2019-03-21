@@ -6,6 +6,7 @@
     align-items: center;
     text-align: center;
     padding: 60px 0 45px;
+    position: relative;
 }
 .footer_list {
     list-style: none;
@@ -23,4 +24,12 @@
 }
 .slogan_heart {
     color: $colorOrange;
+}
+.footer_button {
+    position: absolute;
+    top: -75px;
+}
+.arrow {
+    width: 20.6px;
+    height: 24px;
 }
