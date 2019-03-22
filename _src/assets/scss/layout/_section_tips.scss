@@ -4,7 +4,9 @@
     @media all and (min-width: 768px) {
         padding: 30px 39px 60px;
     }
-
+    @media all and (min-width: 1280px) {
+        padding: 60px 275px 60px;
+    }
 }
 .tips_title, .article_title {
     text-transform: capitalize;
@@ -24,6 +26,13 @@
     width: 76px;
     height: 45px;
     margin-top: 30px;
+    @media all and (min-width: 768px) {
+        width: 91px;
+        height: 45px;
+    }
+    @media all and (min-width: 1280px) {
+        width: 160px;
+    }
 }
 .button_link_tips {
     text-decoration: none;

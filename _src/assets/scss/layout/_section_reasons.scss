@@ -9,6 +9,9 @@
     @media all and (min-width: 768px) {
         padding: 30px 40px 60px;
     }
+    @media all and (min-width: 1280px) {
+        padding: 60px 85px 60px;
+    }
 }
 .reasons_title {
     text-transform: capitalize;
@@ -48,6 +51,6 @@
         grid-gap: 40px;
     }
     @media all and (min-width: 1225px) {
-        grid-gap: 100px;
+        grid-gap: 80px;
     }
 }
