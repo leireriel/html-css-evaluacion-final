@@ -61,6 +61,9 @@
     font-size: $fontSize_button;
     line-height: $lineHeight_button;
     font-weight: $fontWeight_medium;
+    &:hover {
+        font-size: $fontSize_medium;
+    }
 }
 .text_reasons_tit {
     font-family: $fontFamily_title;
