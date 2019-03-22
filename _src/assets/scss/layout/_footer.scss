@@ -7,6 +7,10 @@
     text-align: center;
     padding: 60px 0 45px;
     position: relative;
+    @media all and (min-width: 768px) {
+        padding: 45px 39px 45px;
+        text-align: left;
+    }
 }
 .footer_list {
     list-style: none;
@@ -14,6 +18,9 @@
     padding: 0;
     text-transform: uppercase;
     padding-bottom: 30px;
+    @media all and (min-width: 768px) {
+        padding: 0;
+    }
 }
 .footer_link {
     text-decoration: none;
@@ -28,8 +35,23 @@
 .footer_button {
     position: absolute;
     top: -75px;
+    @media all and (min-width: 768px) {
+        top: -22px;
+    }
 }
 .arrow {
     width: 20.6px;
     height: 24px;
+}
+.footer_grid_box {
+    @media all and (min-width: 768px) {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 40px;
+    }
+}
+.footer_grid_special-item {
+    @media all and (min-width: 768px) {
+        grid-row: 1;
+    }
 }
