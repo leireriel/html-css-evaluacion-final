@@ -35,6 +35,11 @@
 .footer_button {
     position: absolute;
     top: -75px;
+    /* No me sale la transición lenta :(
+    &:active {
+        transition: all ease 0.5s;
+    }
+    */
     @media all and (min-width: 768px) {
         top: -22px;
     }
@@ -59,3 +64,4 @@
         grid-row: 1;
     }
 }
+
