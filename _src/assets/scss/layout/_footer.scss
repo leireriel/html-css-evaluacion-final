@@ -48,6 +48,10 @@
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-gap: 40px;
+        width: 100%;
+    }
+    @media all and (min-width: 1280px) {
+        width: auto;
     }
 }
 .footer_grid_special-item {

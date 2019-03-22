@@ -50,7 +50,4 @@
         grid-template-columns: repeat(3, 1fr);
         grid-gap: 40px;
     }
-    @media all and (min-width: 1225px) {
-        grid-gap: 80px;
-    }
 }
