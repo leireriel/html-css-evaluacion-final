@@ -57,7 +57,10 @@
     font-size: $fontSize_title;
     line-height: $lineHeight_default;
     color: $colorBlack;
-    font-weight: $fontWeight_big;  
+    font-weight: $fontWeight_big;
+    @media all and (min-width: 768px) {
+        font-size: $fontSize_titleBig;
+    }
 }
 .text_reasons_p {
     font-family: $fontFamily_default;
@@ -65,6 +68,9 @@
     line-height: $lineHeight_default;
     color: $colorBlack;
     font-weight: $fontWeight_regular;
+    @media all and (min-width: 768px) {
+        font-size: $fontSize_titleMed;
+    }
 }
 .text_footer_links {
     font-family: $fontFamily_default;
