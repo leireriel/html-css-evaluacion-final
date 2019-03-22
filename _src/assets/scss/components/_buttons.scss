@@ -40,12 +40,28 @@
     }
 }
 .special_arrow_button {
+    box-shadow: 0 0 10px 0 $colorBlackOp;
+    animation-name: dinamic-button;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
     &:hover {
-        background-image: linear-gradient($colorWhite, $colorBlackOp);
         width: 55px;
         height: 55px;
         position: relative;
         top: -10px;
+        box-shadow: 0 0 10px 0 $colorWhite;
+    }
+}
+@keyframes dinamic-button {
+    0% {
+        margin-top: -20px;
+    }
+    50% {
+        margin-top: 0;
+    }
+    100% {
+        margin-top: -20px;
     }
 }
 
